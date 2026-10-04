@@ -1,0 +1,22 @@
+class pizza {
+    String size; String crust;int Cheese;
+    pizza()
+    { 
+        this.("Medium");
+        }
+    pizza(String size
+    {
+        this(size,"Thin");
+        }    
+    pizza (String size,String crust )
+    {
+        this(size, crust , 1);
+        
+    }
+pizza (String size ; String crust ; int Cheese)
+{
+    this.size = size; 
+    this crust= crust;
+    this.cheese= cheese;
+   }
+}
