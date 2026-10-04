@@ -1,0 +1,32 @@
+package bhagyashree;
+
+public class employ {
+	String name;double salary;
+	void ShowDetails() {
+		System.out.println(name + "earns Rs." +salary);}
+	}
+class Manager extends employ{
+	void conductMeating() {
+		System.out.println(name + "is conducting a meating");}
+	}
+class Developer extends employ{
+	void writeCode() {
+		System.out.println(name + "is Writing a code");
+		}
+	}
+class Tester extends employ{
+	void testApp() {
+		System.out.println(name + "is Testing the app");
+		}
+}
+class Main{
+	public static void main(String[] args) {
+		Manager m = new Manager();
+		m.name = "deekshitha"; m.salary = 90000;
+		m.ShowDetails(); m.conductMeating();
+		
+		Developer d= new Developer();
+	    d.name = "abhijith"; d.salary = 70000;
+	    d.ShowDetails(); d.writeCode();
+	}
+}
